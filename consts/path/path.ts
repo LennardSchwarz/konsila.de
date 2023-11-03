@@ -22,4 +22,4 @@ export const experienceRoutes = {
   url: '/#experience',
 };
 
-export const routes = [aboutRoutes, contactRoutes, blogRoutes];
+export const routes = [];
