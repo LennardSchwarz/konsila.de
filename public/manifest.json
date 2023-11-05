@@ -1,8 +1,6 @@
 {
-  "name": "konsila Systemberatung - Lennard Schwarz",
+  "name": "konsila Systemberatung",
   "short_name": "konsila",
-  "theme_color": "#1a2130",
-  "background_color": "#161b25",
   "display": "standalone",
   "orientation": "portrait",
   "scope": "/",
