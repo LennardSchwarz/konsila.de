@@ -3,7 +3,7 @@
 # More information under https://docs.ionos.space/docs/github-actions-customization/
 # version: 2022-07-21
 
-name: 'Deploy Now: Orchestration'
+name: "Deploy Now: Orchestration"
 run-name: "Deploy Now: Build konsila.de · ${{ github.event.head_commit.message || format('Triggered by {0}', github.triggering_actor) }}"
 
 on:
@@ -26,6 +26,7 @@ jobs:
           service-host: api-eu.ionos.space
           project-id: 9d1cde34-9c0f-4291-a2e0-c51399afe67b
           action: retrieve-info
+
 
   build:
     name: build
