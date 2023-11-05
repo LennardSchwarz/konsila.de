@@ -2,8 +2,8 @@ import { useMemo } from 'react';
 import cn from 'classnames';
 
 import { useWindowScroll, useScrollDirection } from 'hooks';
-import { Navbar } from 'modules/mainHeader/Navbar';
 import { AppLink } from 'components/AppLink';
+import { ThemeToggle } from 'modules/mainHeader/ThemeToggle';
 
 export const AppHeader: React.FC = () => {
   const { y: scrollPosY } = useWindowScroll();
@@ -27,8 +27,7 @@ export const AppHeader: React.FC = () => {
         <h1 className="main-header__logo">
           <AppLink to="/">konsila Systemberatung</AppLink>
         </h1>
-
-        <Navbar />
+        <ThemeToggle />
       </div>
     </header>
   );
