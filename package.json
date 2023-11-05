@@ -3,9 +3,9 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
+    "dev": "next",
     "build": "next build",
-    "live": "next start",
+    "start": "next start",
     "lint": "next lint",
     "lint:scss": "stylelint \"**/*.scss\"",
     "prepare": "husky install",
