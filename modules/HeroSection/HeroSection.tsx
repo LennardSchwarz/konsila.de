@@ -17,7 +17,7 @@ export const HeroSection: React.FC = () => (
         </span>{' '}
         Hey there! I&apos;m Lennard, a Software Developer with a primary focus
         on backend engineering. <br /> I also do some consulting and freelancing
-        on the side. Need a hand to accelerate your projec?
+        on the side. Need a hand to accelerate your project?
       </p>
 
       <div className="hero__btn">
