@@ -1,17 +1,17 @@
 // 1. Dark theme
 body[data-theme='dark'] {
-  --white: #fff;
+  --white: #cdf;
   --black-rgb: 0, 0, 0;
-  --accent-primary: #faab32;
+  --accent-primary: #d56a49;
   --accent-primary-dark: #ab6809;
   //
-  --dark-primary: #1a2130;
+  --dark-primary: #202a42;
   --dark-tertiary: #161b25;
   --dark-tertiary-rgb: 22, 27, 37;
   --dark-light: #26324e;
   //
-  --grey-light: #c5d1f7;
-  --grey-dark: #c9ccd5;
+  --grey-light: #cdf;
+  --grey-dark: #cdf;
 }
 
 // 2. Light theme

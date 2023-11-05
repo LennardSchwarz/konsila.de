@@ -1,9 +1,9 @@
 {
-  "name": "supacode.dev",
+  "name": "konsila.de",
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "start": "next dev",
+    "dev": "next dev",
     "build": "next build",
     "live": "next start",
     "lint": "next lint",

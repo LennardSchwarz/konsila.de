@@ -6,19 +6,18 @@ export const HeroSection: React.FC = () => (
   <section className="hero" id="hero">
     <div className="hero__left">
       <h2 className="hero__lead-text">
-        My name is <span className="hero__lead-text--highlight">Maverick</span>.
+        My name is <span className="hero__lead-text--highlight">Lennard</span>.
       </h2>
 
       <h3 className="hero__tag-text">I code for fun, and as a job.</h3>
 
       <p className="hero__desc-text">
         <span aria-label="emoji wave" role="img">
-          👋🏽
+          👋🏻
         </span>{' '}
-        Hey there! I&apos;m Maverick, a Software Developer with a primary focus
-        on Frontend Engineering. <br /> Welcome to my little corner of the web,
-        where I share notes, code snippets, and resources on topics that
-        interest me.
+        Hey there! I&apos;m Lennard, a Software Developer with a primary focus
+        on backend engineering. <br /> I also do some consulting and freelancing
+        on the side. Need a hand to accelerate your projec?
       </p>
 
       <div className="hero__btn">
@@ -26,7 +25,7 @@ export const HeroSection: React.FC = () => (
           className="hero__btn--link"
           text="Contact Me"
           title="Send me an email"
-          to="mailto:supacode@gmail.com"
+          to="mailto:lennard@konsila.de"
           newTab
           asButton
         >

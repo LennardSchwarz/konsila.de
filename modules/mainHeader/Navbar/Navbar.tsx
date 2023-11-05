@@ -2,9 +2,7 @@ import { useRef, useState, useCallback } from 'react';
 import cn from 'classnames';
 import { useIsomorphicLayoutEffect, useOnClickOutside } from 'usehooks-ts';
 
-import { routes } from 'consts';
 import { useIsMobile } from 'hooks';
-import { AppLink } from 'components/AppLink';
 import { ThemeToggle } from 'modules/mainHeader/ThemeToggle';
 
 export const Navbar: React.FC = () => {
@@ -67,25 +65,6 @@ export const Navbar: React.FC = () => {
         })}
       >
         <ol className="main-nav__list">
-          {routes.map((link) => (
-            <li
-              key={link.id}
-              className="main-nav__list--item"
-              onClick={closeMenu}
-              onKeyDown={closeMenu}
-              role="presentation"
-            >
-              <AppLink
-                className={cn('main-nav__link', {
-                  'main-nav__link--active': false, // TODO: Replace with active link logic.
-                })}
-                to={link.url}
-              >
-                {link.text}
-              </AppLink>
-            </li>
-          ))}
-
           <li className="main-nav__list--item">
             <ThemeToggle />
           </li>

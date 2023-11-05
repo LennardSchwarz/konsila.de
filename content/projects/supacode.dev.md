@@ -1,6 +1,6 @@
 ---
 index: 1
-title: 'Supacode.dev'
+title: 'konsila.de'
 tools:
   - React
   - Typescript

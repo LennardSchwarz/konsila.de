@@ -1,29 +1,24 @@
-import { codepen, email, twitter, linkedIn, github } from 'assets/icons';
+import { email, linkedIn, github } from 'assets/icons';
 
 export const socialLinks = [
   {
-    name: 'Twitter',
-    url: 'https://twitter.com/supacode',
-    icon: twitter,
-  },
-  {
-    name: 'GitHub',
-    url: 'https://github.com/supacode',
+    name: 'GitHub - personal',
+    url: 'https://github.com/lennardschwarz',
     icon: github,
   },
   {
-    name: 'CodePen',
-    url: 'https://codepen.io/supacode',
-    icon: codepen,
+    name: 'GitHub - work',
+    url: 'https://github.com/konsila',
+    icon: github,
   },
   {
     name: 'LinkedIn',
-    url: 'https://linkedin.com/in/supacode',
+    url: 'https://www.linkedin.com/in/lennard-schwarz/',
     icon: linkedIn,
   },
   {
     name: 'E-mail',
-    url: 'mailto:supacode@gmail.com',
+    url: 'mailto:lennard@konsila.de',
     icon: email,
   },
 ];
