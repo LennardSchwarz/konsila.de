@@ -61,4 +61,5 @@ module.exports = {
       version: 'detect',
     },
   },
+  ignorePatterns: ['out/'], // ignore the static build folder
 };
