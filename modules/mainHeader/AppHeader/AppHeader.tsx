@@ -25,7 +25,7 @@ export const AppHeader: React.FC = () => {
     <header className={className}>
       <div className="main-header__inner">
         <h1 className="main-header__logo">
-          <AppLink to="/">konsila Systemberatung - Lennard Schwarz</AppLink>
+          <AppLink to="/">konsila Systemberatung</AppLink>
         </h1>
 
         <Navbar />
