@@ -32,8 +32,6 @@ const MyApp: React.FC<MyAppProps> = ({ Component, pageProps }) => (
 
       <link rel="apple-touch-icon" href="/icons/icon-192x192.png" />
 
-      <meta name="twitter:creator" content="@supacode" />
-
       <meta property="og:type" content="website" />
 
       <link
