@@ -1,10 +1,4 @@
-export {
-  aboutRoutes,
-  blogRoutes,
-  contactRoutes,
-  experienceRoutes,
-  routes,
-} from './path/path';
+export { routes } from './path/path';
 
 export { socialLinks } from './socialLinks/socialLinks';
 
