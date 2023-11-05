@@ -19,7 +19,7 @@ env:
 jobs:
   # Please do not rename this job
   build-project:
-    name: build konsila.de
+    name: build konsila.dev
     runs-on: ubuntu-latest
     steps:
       - name: checkout
@@ -50,5 +50,5 @@ jobs:
           branch-id: ${{ inputs.branch-id }}
           version: ${{ github.sha }}
           folder: ${{ env.DEPLOYMENT_FOLDER }}
-          config-file: .deploy-now/konsila.de/config.yaml
+          config-file: .deploy-now/konsila.dev/config.yaml
           action: upload
