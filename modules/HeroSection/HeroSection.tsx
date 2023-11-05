@@ -13,7 +13,7 @@ export const HeroSection: React.FC = () => (
 
       <p className="hero__desc-text">
         <span aria-label="emoji wave" role="img">
-          👋🏽
+          👋🏻
         </span>{' '}
         Hey there! I&apos;m Lennard, a Software Developer with a primary focus
         on backend engineering. <br /> I also do some consulting and freelance
