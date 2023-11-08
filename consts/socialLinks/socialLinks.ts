@@ -2,15 +2,15 @@ import { email, linkedIn, github } from 'assets/icons';
 
 export const socialLinks = [
   {
-    name: 'GitHub - personal',
+    name: 'GitHub',
     url: 'https://github.com/lennardschwarz',
     icon: github,
   },
-  {
-    name: 'GitHub - work',
-    url: 'https://github.com/konsila',
-    icon: github,
-  },
+  // {
+  //   name: 'GitHub - work',
+  //   url: 'https://github.com/konsila',
+  //   icon: github,
+  // },
   {
     name: 'LinkedIn',
     url: 'https://www.linkedin.com/in/lennard-schwarz/',
