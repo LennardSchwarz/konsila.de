@@ -30,23 +30,7 @@ const MyApp: React.FC<MyAppProps> = ({ Component, pageProps }) => (
 
       <meta name="theme-color" content={siteData.themeColor} />
 
-      <link rel="apple-touch-icon" href="/icons/icon-192x192.png" />
-
       <meta property="og:type" content="website" />
-
-      <link
-        href="/icons/icon-16x16.png"
-        rel="icon"
-        type="image/png"
-        sizes="16x16"
-      />
-
-      <link
-        href="/icons/icon-32x32.png"
-        sizes="32x32"
-        rel="icon"
-        type="image/png"
-      />
     </Head>
 
     <AppLayout fullHeightFooter={pageProps.fullHeightFooter}>
